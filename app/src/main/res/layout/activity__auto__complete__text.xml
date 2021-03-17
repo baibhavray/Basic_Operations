@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here we can search one item at a time"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <AutoCompleteTextView
+        android:id="@+id/actv"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here we can search Multiple item at a time"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="40dp"/>
+    <MultiAutoCompleteTextView
+        android:id="@+id/mactv"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

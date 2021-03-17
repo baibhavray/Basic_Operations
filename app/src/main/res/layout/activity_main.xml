@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#234E70"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/btnRadio"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_margin="8dp"
+        android:text="Radio Button"/>
+    <Button
+        android:id="@+id/btnCheckBox"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_margin="8dp"
+        android:text="Check Box"/>
+    <Button
+        android:id="@+id/btnGridView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_margin="8dp"
+        android:text="Grid View"/>
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_margin="8dp"
+        android:text="Spinner"/>
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_margin="8dp"
+        android:text="List View"/>
+    <Button
+        android:id="@+id/btnImageView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_margin="8dp"
+        android:text="Image View"/>
+    <Button
+        android:id="@+id/btnAuto"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:layout_margin="8dp"
+        android:text="Auto Complete Text"/>
+
+
+
+</LinearLayout>
